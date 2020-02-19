@@ -1,0 +1,163 @@
+/* Scss Document */
+/* work CSS */
+body {
+  /* End of #conts */
+}
+
+body #conts .container {
+  /* End of #work_list */
+}
+
+body #conts .container .conts_groop {
+  padding-bottom: 0;
+}
+
+body #conts .container #work_list {
+  padding-top: 0;
+}
+
+body #conts .container #work_list .page-sort-body-wrap {
+  padding-left: 15px;
+  padding-bottom: 3rem;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body {
+  padding-right: 3em;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .t {
+  padding-right: 1em;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .page-sort-select {
+  width: 135px;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .page-sort-select .in {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .page-sort-select .in select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 0;
+  height: 30px;
+  width: 100%;
+  padding: 0 20px 0 5px;
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .page-sort-select .page-sort-select-arrow {
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+body #conts .container #work_list .page-sort-body-wrap .page-sort-body .page-sort-select:hover select {
+  color: #000000;
+  border-color: #000000;
+}
+
+body #conts .container #work_list .page-sort-body, body #conts .container #work_list .page-sort-body-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+body #conts .container #work_list .card {
+  width: 18rem;
+  display: block;
+  border: none;
+}
+
+body #conts .container #work_list .card:hover, body #conts .container #work_list .card:active, body #conts .container #work_list .card:focus {
+  text-decoration: none;
+}
+
+body #conts .container #work_list .card .imgWrap {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+body #conts .container #work_list .card .imgWrap:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+body #conts .container #work_list .card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+body #conts .container #work_list .card img:hover, body #conts .container #work_list .card img:active, body #conts .container #work_list .card img:focus {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
+
+body #conts .container #work_list .card-body {
+  padding-left: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+
+body #conts .container #work_list .card-body h5 {
+  color: #212529;
+}
+
+/*  CSS Media Query: On screens that are 1199px or less */
+@media (max-width: 1199px) {
+  #conts h2 {
+    font-size: 2rem !important;
+  }
+  #conts p {
+    font-size: 0.9rem !important;
+  }
+  #conts #work_list .card {
+    width: 100% !important;
+  }
+  #conts #work_list .card h5 {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=work.css.map */

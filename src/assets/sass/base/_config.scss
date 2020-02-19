@@ -1,0 +1,37 @@
+// $topTitle:'Playfair Display',
+// serif;
+// $subTitle:serif;
+
+// // color
+// $primary-text-color: #C49C6B;
+
+// // media querry
+// $tab:960px;
+// $mb:614px;
+// $sp:370px;
+
+// // box
+// $desktopMaxContainer:1200px;
+
+// @mixin tab {
+//     @media (max-width: ($tab)) {
+//         @content;
+//     }
+// }
+
+// @mixin mb {
+//     @media (max-width: ($mb)) {
+//         @content;
+//     }
+// }
+
+// @mixin sp {
+//     @media (max-width: ($sp)) {
+//         @content;
+//     }
+// }
+
+// // overwriten for each page title
+// .ppb_title_first {
+//     color: #cfa670 !important;
+// }

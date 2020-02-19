@@ -1,0 +1,107 @@
+/* Scss Document */
+/* details CSS */
+body header {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+body header:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+body header h3 {
+  text-align: right;
+  font-weight: 200;
+}
+
+body header #hero_img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+body header #hero_txt {
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+body header #hero_txt h2, body header #hero_txt h3 {
+  width: 100%;
+  padding-right: 3rem;
+}
+
+body #conts .container h3 {
+  font-size: 2rem !important;
+}
+
+body #conts .container #work_list {
+  padding-top: 5rem;
+}
+
+body #conts .container #work_list .modal-header {
+  border-bottom: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+body #conts .container #work_list .modal-body {
+  padding-top: 0;
+}
+
+body #conts .container #work_list .modal-xl {
+  max-width: 1140px;
+}
+
+/*  CSS Media Query: On screens that are 1199px or less */
+@media (max-width: 1199px) {
+  #conts header {
+    height: auto !important;
+  }
+  #conts header #hero_txt h2, #conts header #hero_txt h3 {
+    padding-right: 1rem !important;
+  }
+  #conts header #hero_txt h2 {
+    padding-top: 0.3rem;
+    font-size: 2rem !important;
+    margin-bottom: 0 !important;
+  }
+  #conts header #hero_txt h3 {
+    font-size: 1rem !important;
+  }
+  #conts #servies {
+    padding-bottom: 3rem;
+  }
+  #conts #servies .conts_texts {
+    padding-top: 0 !important;
+    padding-bottom: 1rem !important;
+  }
+  #conts #work_list .card {
+    width: 100% !important;
+  }
+  #conts #work_list .card h5 {
+    font-size: 0.9rem !important;
+  }
+  #conts #work_list .carousel-indicators {
+    bottom: 0 !important;
+  }
+  #conts #work_list .carousel-caption {
+    bottom: 0 !important;
+  }
+  #conts #work_list .carousel-caption h5 {
+    font-size: 0.9rem !important;
+  }
+}
+
+/*# sourceMappingURL=detail.css.map */
